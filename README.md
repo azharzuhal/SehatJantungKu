@@ -8,6 +8,14 @@
 
 ---
 
+## 📺 Demo Aplikasi
+
+Untuk melihat visualisasi antarmuka dan alur kerja aplikasi secara langsung, Anda dapat menonton video demonstrasi di bawah ini:
+
+👉 **[Tonton Video Demo SehatJantungku di YouTube](https://youtu.be/p1N6NGliUGI)**
+
+---
+
 ## ✨ Fitur Unggulan
 
 ### 🔐 Autentikasi & Keamanan
@@ -54,29 +62,3 @@ com.example.sehatjantungku
 │   ├── viewmodel      # Logika Bisnis (AuthViewModel, dll)
 │   └── theme          # Tema & Styling Aplikasi
 └── utils              # Helper & Extensions
-
-🚀 Cara Instalasi
-Ikuti langkah ini untuk menjalankan proyek di komputer lokal Anda:
-1. Clone Repository
-git clone https://github.com/rapsz30/SehatJantungku.git
-
-2. Setup Firebase
- - Buat proyek baru di Firebase Console.
- - Aktifkan Authentication (Email/Password).
- - Aktifkan Firestore Database.
- - Unduh google-services.json dan letakkan di folder app/.
-
-3. Buka di Android Studio
- - Buka Android Studio, pilih Open dan arahkan ke folder proyek.
- - Tunggu proses Gradle Sync selesai.
-
-4. Jalankan Aplikasi
- - Hubungkan HP Android atau nyalakan Emulator.
- - Tekan tombol Run (▶).
-
-⚠️ Catatan Penting untuk Developer
- - Database Fields: Pastikan nama field di Firestore konsisten dengan User.kt (gunakan name dan phone, bukan fullName).
- - Diet Data: Data rencana diet diambil dari file lokal assets/dietplan.json.
-
-
-Dibuat dengan ❤️ oleh Tim SehatJantungku
